@@ -11,6 +11,7 @@ public class Main {
         AlgoritmFactory factory = new AlgoritmFactory();
         AbstractAlgoritm algoritm =
                 factory.getAlgoritm(algoritmName);
+        System.out.println("Wykonujemy Algorytm: " + algoritm.getName());
 
         algoritm.runAlgoritm(args);
 
