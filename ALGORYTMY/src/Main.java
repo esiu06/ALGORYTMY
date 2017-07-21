@@ -12,5 +12,7 @@ public class Main {
         AbstractAlgoritm algoritm =
                 factory.getAlgoritm(algoritmName);
 
+        algoritm.runAlgoritm(args);
+
     }
 }
