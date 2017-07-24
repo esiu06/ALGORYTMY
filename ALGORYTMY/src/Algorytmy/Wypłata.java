@@ -26,15 +26,15 @@ public class Wypłata extends AbstractAlgoritm {
             for (int i = 0; i < zl.length; i++) {
                 if (wyplata1 >= zl[i]) {
                     wyplata1 = wyplata1 - zl[i];
-                    wyplatazl[i]++;
+                    wyplata1++;
                     break;
                 }
             }
         }
         while (wyplata2 > 0) {
-            for (int j = 0; j < gr.length; j++) {
-                if (wyplata2 >= gr[j]) {
-                    wyplata2 = wyplata2 - gr[j];
+            for (int i = 0; i < gr.length; i++) {
+                if (wyplata2 >= gr[i]) {
+                    wyplata2 = wyplata2 - gr[i];
                     wyplata2++;
                     break;
                 }
