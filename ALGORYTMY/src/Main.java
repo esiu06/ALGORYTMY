@@ -1,4 +1,5 @@
-import Algoritm.AbstractAlgoritm;
+import Algorytmy.AbstractAlgoritm;
+import Algorytmy.AlgoritmFactory;
 
 /**
  * Created by RENT on 2017-07-20.

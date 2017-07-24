@@ -1,6 +1,4 @@
-package Algoritm;
-
-import Algoritm.AbstractAlgoritm;
+package Algorytmy;
 
 /**
  * Created by RENT on 2017-07-21.

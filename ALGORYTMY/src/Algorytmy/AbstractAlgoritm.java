@@ -1,4 +1,4 @@
-package Algoritm;
+package Algorytmy;
 
 /**
  * Created by RENT on 2017-07-21.
