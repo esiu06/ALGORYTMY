@@ -24,12 +24,6 @@ public class SumaLiczb extends AbstractAlgoritm {
             int suma = n;
             System.out.println(suma );
 
-
         }
-
-
-
-
-
     }
 }

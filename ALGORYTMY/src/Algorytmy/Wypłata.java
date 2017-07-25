@@ -26,7 +26,7 @@ public class Wypłata extends AbstractAlgoritm {
             for (int i = 0; i < zl.length; i++) {
                 if (wyplata1 >= zl[i]) {
                     wyplata1 = wyplata1 - zl[i];
-                    wyplata1++;
+                    wyplatazl[i]++;
                     break;
                 }
             }
@@ -35,12 +35,16 @@ public class Wypłata extends AbstractAlgoritm {
             for (int i = 0; i < gr.length; i++) {
                 if (wyplata2 >= gr[i]) {
                     wyplata2 = wyplata2 - gr[i];
-                    wyplata2++;
+                    wyplatagr[i]++;
                     break;
                 }
-
             }
-
         }
+
+        for(int i=0; i<wyplatazl.length;i++){
+            System.out.printf("%d\n", wyplatazl[i]);
+        }
+
+
     }
 }

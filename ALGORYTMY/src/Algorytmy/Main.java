@@ -1,3 +1,5 @@
+package Algorytmy;
+
 import Algorytmy.AbstractAlgoritm;
 import Algorytmy.AlgoritmFactory;
 

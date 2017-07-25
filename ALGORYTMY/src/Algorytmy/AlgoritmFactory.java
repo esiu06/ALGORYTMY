@@ -19,7 +19,10 @@ public class AlgoritmFactory {
             case "wyplata":
                 return new Wypłata();
 
-
+            case "silnia":
+                return new Silnia();
+            case "silnia2":
+                return new SumaLiczb2();
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
