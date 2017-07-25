@@ -10,11 +10,12 @@ public class CiagFibonacciego extends AbstractAlgoritm {
     }
 
     @Override
-    public String runAlgoritm(String[] input) {
+    public void runAlgoritm(String[] input) {
 
         int n = Integer.parseInt(input[1]);
 
-        System.out.println("Ciag Fibunacciego %d wynosi %d: ", n, Fiboncci(n));
+        System.out.printf("Ciag Fibunacciego %d wynosi %d: ",  n, Fiboncci(n));
+
     }
 
 

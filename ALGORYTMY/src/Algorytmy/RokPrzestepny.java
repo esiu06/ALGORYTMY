@@ -17,5 +17,6 @@ public class RokPrzestepny extends AbstractAlgoritm {
                 System.out.printf("%d nie jest przestępny\n", rok);
             }
         }
+
     }
 }

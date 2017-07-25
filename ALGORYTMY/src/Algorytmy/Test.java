@@ -15,5 +15,6 @@ public class Test extends AbstractAlgoritm {
     public void runAlgoritm(String[] input) {
         System.out.println("To jest algorytm testowy");
 
+
     }
 }

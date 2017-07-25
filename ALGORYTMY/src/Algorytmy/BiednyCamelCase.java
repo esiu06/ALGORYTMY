@@ -29,6 +29,7 @@ public class BiednyCamelCase extends AbstractAlgoritm {
             }
             System.out.print(" ");
         }
+
     }
 }
 

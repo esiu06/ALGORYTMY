@@ -18,11 +18,20 @@ public class AlgoritmFactory {
 
             case "wyplata":
                 return new Wypłata();
+            case "rokprzestepny":
+                return new RokPrzestepny();
 
             case "silnia":
                 return new Silnia();
             case "silnia2":
                 return new SumaLiczb2();
+            case "silnia3":
+                return new Silnia3();
+            case "ciagfibonacciego":
+                return new CiagFibonacciego();
+            case "szyfrcezara":
+                return new SzyfrCezara();
+
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");

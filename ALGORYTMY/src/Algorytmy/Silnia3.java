@@ -10,7 +10,7 @@ public class Silnia3 extends AbstractAlgoritm {
     }
 
     @Override
-    public String runAlgoritm(String[] input) {
+    public void runAlgoritm(String[] input) {
 
         int n = Integer.parseInt(input[1]);
 
@@ -44,9 +44,9 @@ public class Silnia3 extends AbstractAlgoritm {
                 break;
 
             default:
-                return "0 0";
+
 
         }
-        return null;
+
     }
 }

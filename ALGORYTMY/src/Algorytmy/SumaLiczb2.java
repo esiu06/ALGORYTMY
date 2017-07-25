@@ -16,12 +16,13 @@ public class SumaLiczb2 extends AbstractAlgoritm {
 
         System.out.println(SumaLiczb2(n));
 
+
     }
     private  int SumaLiczb2(int n){
         if (n<2)
             return 1;
 
-        return n*SumaLiczb2(n-1);
+        return n+SumaLiczb2(n-1);
 
 
     }

@@ -26,6 +26,7 @@ public class SzyfrCezara extends AbstractAlgoritm {
             int move = (position + 3)%_letters.length;
             System.out.printf("%s", _letters[move]);
         }
+            System.out.print("");
     }
 
 }

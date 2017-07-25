@@ -46,5 +46,6 @@ public class Wypłata extends AbstractAlgoritm {
         }
 
 
+
     }
 }
