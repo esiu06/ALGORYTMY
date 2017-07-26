@@ -31,6 +31,8 @@ public class AlgoritmFactory {
                 return new CiagFibonacciego();
             case "szyfrcezara":
                 return new SzyfrCezara();
+            case "sortowanie":
+                return new Sortowanie();
 
 
                 default:
