@@ -33,6 +33,9 @@ public class AlgoritmFactory {
                 return new SzyfrCezara();
             case "sortowanie":
                 return new Sortowanie();
+            case "sortowaniewzgledempunktu":
+                return new SortowanieWzgledemPunktu();
+
 
 
                 default:
