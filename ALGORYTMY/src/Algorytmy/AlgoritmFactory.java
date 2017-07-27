@@ -35,6 +35,12 @@ public class AlgoritmFactory {
                 return new Sortowanie();
             case "sortowaniewzgledempunktu":
                 return new SortowanieWzgledemPunktu();
+            case "sortowanieprzezzliczanie":
+                return new SortowaniePrzezZliczanie();
+            case "prostetablice":
+                return new ProsteTablice();
+            case "prostetablice2":
+                return new ProsteTablice2();
 
 
 
@@ -42,4 +48,7 @@ public class AlgoritmFactory {
                     throw new Exception("Nie ma takiego algorytmu!");
         }
     }
-}
+
+
+    }
+
