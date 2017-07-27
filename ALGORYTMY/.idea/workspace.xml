@@ -37,8 +37,8 @@
       <file leaf-file-name="SortowanieWzgledemPunktu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorytmy/SortowanieWzgledemPunktu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
@@ -652,12 +652,12 @@
       <workItem from="1500996379842" duration="12583000" />
       <workItem from="1501082399042" duration="5089000" />
       <workItem from="1501090827527" duration="5018000" />
-      <workItem from="1501169238531" duration="421000" />
+      <workItem from="1501169238531" duration="1028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45465000" />
+    <option name="totallyTimeSpent" value="46072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -772,13 +772,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Algorytmy/SortowanieWzgledemPunktu.java</url>
-          <line>49</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Algorytmy/SortowanieWzgledemPunktu.java</url>
-          <line>74</line>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -1198,8 +1198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorytmy/SortowanieWzgledemPunktu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="136">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />
