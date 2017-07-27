@@ -41,6 +41,8 @@ public class AlgoritmFactory {
                 return new ProsteTablice();
             case "prostetablice2":
                 return new ProsteTablice2();
+            case "statki":
+                return new Statki();
 
 
 
