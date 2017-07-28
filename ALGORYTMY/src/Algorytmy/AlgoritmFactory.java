@@ -47,6 +47,9 @@ public class AlgoritmFactory {
                 return new NajwiekszyWspolnyDzielnik();
             case "warcaby":
                 return new Warcaby();
+            case "dominata":
+                return new Dominata();
+
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
