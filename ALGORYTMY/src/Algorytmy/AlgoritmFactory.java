@@ -43,8 +43,10 @@ public class AlgoritmFactory {
                 return new ProsteTablice2();
             case "statki":
                 return new Statki();
-
-
+            case "nwd":
+                return new NajwiekszyWspolnyDzielnik();
+            case "warcaby":
+                return new Warcaby();
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
