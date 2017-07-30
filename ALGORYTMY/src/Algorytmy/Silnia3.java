@@ -8,12 +8,9 @@ public class Silnia3 extends AbstractAlgoritm {
     public String getName() {
         return "Liczenie silni 3";
     }
-
     @Override
     public void runAlgoritm(String[] input) {
-
         int n = Integer.parseInt(input[1]);
-
         switch (n){
             case 1:
                 System.out.println("0 1");
@@ -44,9 +41,8 @@ public class Silnia3 extends AbstractAlgoritm {
                 break;
 
             default:
-
-
+                System.out.println("0 0");
+                break;
         }
-
     }
 }
