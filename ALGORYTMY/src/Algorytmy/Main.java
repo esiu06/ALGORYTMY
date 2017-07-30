@@ -8,15 +8,10 @@ import Algorytmy.AlgoritmFactory;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-
        String algoritmName = args[0];
-
         AlgoritmFactory factory = new AlgoritmFactory();
-        AbstractAlgoritm algoritm =
-                factory.getAlgoritm(algoritmName);
+        AbstractAlgoritm algoritm = factory.getAlgoritm(algoritmName);
         System.out.println("Wykonujemy Algorytm: " + algoritm.getName());
-
         algoritm.runAlgoritm(args);
-
     }
 }

@@ -5,7 +5,6 @@ package Algorytmy;
  */
 public class AlgoritmFactory {
     public AbstractAlgoritm getAlgoritm(String name) throws Exception {
-
         switch (name.toLowerCase()){
             case "test":
                 return new Test();
@@ -15,12 +14,10 @@ public class AlgoritmFactory {
                 return new SumowanieLiczbNaturalnych();
             case "sumaliczb":
                 return new SumaLiczb();
-
             case "wyplata":
                 return new Wypłata();
             case "rokprzestepny":
                 return new RokPrzestepny();
-
             case "silnia":
                 return new Silnia();
             case "silnia2":
@@ -49,8 +46,6 @@ public class AlgoritmFactory {
                 return new Warcaby();
             case "dominata":
                 return new Dominata();
-
-
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
         }

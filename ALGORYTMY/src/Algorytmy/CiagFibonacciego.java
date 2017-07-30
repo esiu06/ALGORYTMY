@@ -8,17 +8,11 @@ public class CiagFibonacciego extends AbstractAlgoritm {
     public String getName() {
         return "Ciag Fibonacciego";
     }
-
     @Override
     public void runAlgoritm(String[] input) {
-
         int n = Integer.parseInt(input[1]);
-
         System.out.printf("Ciag Fibunacciego %d wynosi %d: ",  n, Fiboncci(n));
-
     }
-
-
     private int Fiboncci(int n){
         if (n==0){
             return 0;
@@ -28,8 +22,6 @@ public class CiagFibonacciego extends AbstractAlgoritm {
         }
         else {
             return Fiboncci(n-1)+ Fiboncci(n-2);
-
         }
-
     }
 }

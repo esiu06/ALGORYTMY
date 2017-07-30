@@ -11,20 +11,11 @@ public class SumaLiczb extends AbstractAlgoritm {
 
     @Override
     public void runAlgoritm(String[] input) {
-
         int n = Integer.parseInt(input[1]);
-
-
         int i = 1;
-
-
-
-        for( i=1; i< input.length; i++){
-
+        for( i=0; i< input.length; i++){
             int suma = n;
-            System.out.println(suma );
-
+            System.out.println(suma);
         }
-
     }
 }
