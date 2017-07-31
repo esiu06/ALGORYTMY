@@ -48,6 +48,10 @@ public class AlgoritmFactory {
                 return new Dominata();
             case "datawielkanocy":
                 return new DataWielkanocy();
+            case "zad1":
+                return new Zad1();
+            case "zad2":
+                return new Zad2();
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
         }
