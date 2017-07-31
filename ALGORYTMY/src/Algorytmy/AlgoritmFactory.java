@@ -46,6 +46,8 @@ public class AlgoritmFactory {
                 return new Warcaby();
             case "dominata":
                 return new Dominata();
+            case "datawielkanocy":
+                return new DataWielkanocy();
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
         }

@@ -11,7 +11,7 @@ public class Warcaby extends AbstractAlgoritm {
         int m = Integer.parseInt(input[1]);
         int n = Integer.parseInt(input[2]);
         String kolorPola = input[3];
-        int licznik;
+        int licznik = 0;
         String[][] plansza = new String[m][n];
         for(int i=0; i <m; i++){
             for(int j=0; j<n; j++){
