@@ -17,19 +17,34 @@ public class Zad2 extends AbstractAlgoritm {
 //        int[] tabInt = new int[4];
 //        System.out.println( tabInt[3]);
 
-        Random mRand = new Random();
+//        Random mRand = new Random();
+//
+//        int[]tab3 = new int[10];
+//       tab3[1] = mRand.nextInt();
+//
+//       for(int i=0, j=0; i< tab3.length; i++,j=j+2){//parzyste liczby
+//           tab3[i]= j;
+//
+//           System.out.printf("%d\n", tab3[i]);
+//       }
+//
+//        System.out.print(tab3[1]);
 
-        int[]tab3 = new int[10];
-       tab3[1] = mRand.nextInt();
+        int[]tab4 = {1,4,78,3};
 
-       for(int i=0, j=0; i< tab3.length; i++,j=j+2){//parzyste liczby
-           tab3[i]= j;
+       int dlugosc = tab4.length-1;
+       int max = 0;
+       int min = 0;
 
-           System.out.printf("%d\n", tab3[i]);
+       for(int i=0; i< tab4.length; i++){
+           if(tab4[i]>tab4[max]){
+               max = i;
+           }
+           if (tab4[i] > tab4[min])   {
+               min = i;
+           }
+           System.out.printf("%d");
        }
-
-        System.out.print(tab3[1]);
-
-
     }
-}
+ }
+
