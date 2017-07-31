@@ -50,7 +50,5 @@ public class AlgoritmFactory {
                     throw new Exception("Nie ma takiego algorytmu!");
         }
     }
-
-
-    }
+}
 

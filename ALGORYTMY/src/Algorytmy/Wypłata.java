@@ -8,20 +8,14 @@ public class Wypłata extends AbstractAlgoritm {
     public String getName() {
         return "Wypłata";
     }
-
     @Override
     public void runAlgoritm(String[] input) {
-
-
         int[] zl = {200, 100, 50, 20, 10, 5, 2, 1};
         int[] gr = {50, 20, 10, 5, 2, 1};
-
         int wyplata1 = Integer.parseInt(input[1]);
         int wyplata2 = Integer.parseInt(input[2]);
-
         int[] wyplatazl = new int[8];
         int[] wyplatagr = new int[6];
-
         while (wyplata1 > 0) {
             for (int i = 0; i < zl.length; i++) {
                 if (wyplata1 >= zl[i]) {
@@ -44,8 +38,5 @@ public class Wypłata extends AbstractAlgoritm {
         for(int i=0; i<wyplatazl.length;i++){
             System.out.printf("%d\n", wyplatazl[i]);
         }
-
-
-
     }
 }

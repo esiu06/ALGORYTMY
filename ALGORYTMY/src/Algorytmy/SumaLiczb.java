@@ -8,7 +8,6 @@ public class SumaLiczb extends AbstractAlgoritm {
     public String getName() {
         return "Suma liczb";
     }
-
     @Override
     public void runAlgoritm(String[] input) {
         int n = Integer.parseInt(input[1]);

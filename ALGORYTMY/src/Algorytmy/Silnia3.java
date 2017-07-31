@@ -39,7 +39,6 @@ public class Silnia3 extends AbstractAlgoritm {
             case 9:
                 System.out.println("8 0");
                 break;
-
             default:
                 System.out.println("0 0");
                 break;

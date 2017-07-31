@@ -5,7 +5,6 @@ public class RokPrzestepny extends AbstractAlgoritm {
     public String getName() {
         return "Rok przestępny";
     }
-
     @Override
     public void runAlgoritm(String[] input) {
         for(int i = 1; i<input.length; i++){
@@ -17,6 +16,5 @@ public class RokPrzestepny extends AbstractAlgoritm {
                 System.out.printf("%d nie jest przestępny\n", rok);
             }
         }
-
     }
 }

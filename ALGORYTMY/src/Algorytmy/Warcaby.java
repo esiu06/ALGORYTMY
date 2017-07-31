@@ -5,21 +5,14 @@ public class Warcaby extends AbstractAlgoritm {
     public String getName() {
         return "Warcaby";
     }
-
     @Override
     public void runAlgoritm(String[] input) {
-
         String literki[] = {"B", "C"};
         int m = Integer.parseInt(input[1]);
         int n = Integer.parseInt(input[2]);
         String kolorPola = input[3];
         int licznik;
-
         String[][] plansza = new String[m][n];
-
-
-
-
         for(int i=0; i <m; i++){
             for(int j=0; j<n; j++){
                 if (i==0 && j == 0)
@@ -41,11 +34,9 @@ public class Warcaby extends AbstractAlgoritm {
                         plansza[i][j] = "B";
                     }
                 }
-
                 licznik++;
         }
-
         System.out.printf("%s",plansza[m][n]);
+        }
     }
-}
 }

@@ -8,24 +8,17 @@ public class SumowanieLiczbNaturalnych extends AbstractAlgoritm {
     public String getName() {
         return "Sumowanie liczb naturalnych";
     }
-
     @Override
     public void runAlgoritm(String[] input) {
-
         int n = Integer.parseInt(input[1]);
-
         int suma = 0;
-
         int i = 1;
-
         while(i<=n) {
             suma += i;
             System.out.printf("Intencja: %d ::: Wartość sumy: %d \n", i, suma);
             i++;
         }
         System.out.println(suma);
-
     }
-
-    }
+}
 
