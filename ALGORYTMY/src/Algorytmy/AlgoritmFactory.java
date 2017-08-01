@@ -1,5 +1,7 @@
 package Algorytmy;
 
+import Algorytmy.Struktury.TestowanieListy;
+
 /**
  * Created by RENT on 2017-07-21.
  */
@@ -52,6 +54,8 @@ public class AlgoritmFactory {
                 return new Zad1();
             case "zad2":
                 return new Zad2();
+            case "testowanielisty":
+                return new TestowanieListy();
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
         }
