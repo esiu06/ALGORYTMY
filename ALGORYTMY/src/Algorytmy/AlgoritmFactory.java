@@ -56,6 +56,8 @@ public class AlgoritmFactory {
                 return new Zad2();
             case "testowanielisty":
                 return new TestowanieListy();
+            case "listakolorow":
+                return new ListaKolorow();
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
         }
