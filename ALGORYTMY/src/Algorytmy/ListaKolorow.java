@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ListaKolorow extends AbstractAlgoritm {
     @Override
     public String getName() {
-        return "Lista kolowow";
+        return "Lista kolorow";
     }
 
     @Override
