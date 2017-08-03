@@ -66,6 +66,9 @@ public class AlgoritmFactory {
                 return new TestowanieKopca();
             case "przeliczaniesystemow":
                 return new PrzeliczanieSystemow();
+            case "onp":
+                return new OdwrotnaNotacjaPolska();
+
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
