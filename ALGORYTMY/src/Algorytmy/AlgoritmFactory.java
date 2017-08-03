@@ -64,6 +64,8 @@ public class AlgoritmFactory {
                 return new NaszeDrzewo();
             case "kopiec":
                 return new TestowanieKopca();
+            case "przeliczaniesystemow":
+                return new PrzeliczanieSystemow();
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
