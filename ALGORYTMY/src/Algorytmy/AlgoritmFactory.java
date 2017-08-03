@@ -1,5 +1,7 @@
 package Algorytmy;
 
+import Algorytmy.Struktury.Kopiec;
+import Algorytmy.Struktury.TestowanieKopca;
 import Algorytmy.Struktury.TestowanieListy;
 
 /**
@@ -61,7 +63,8 @@ public class AlgoritmFactory {
             case "naszedrzewo":
                 return new NaszeDrzewo();
             case "kopiec":
-                return new Kopiec();
+                return new TestowanieKopca();
+
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
         }
