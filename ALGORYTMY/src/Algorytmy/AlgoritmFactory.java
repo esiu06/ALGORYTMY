@@ -68,7 +68,12 @@ public class AlgoritmFactory {
                 return new PrzeliczanieSystemow();
             case "onp":
                 return new OdwrotnaNotacjaPolska();
-
+            case "zadanie1":
+                return new Zadanie1();
+            case "zadanie2":
+                return new Zadanie2();
+            case "zadanie4":
+                return new Zadanie4();
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
