@@ -1,6 +1,6 @@
 package Algorytmy.Struktury;
 
-public class OneWayListElement {
-    public int data;
+public class OneWayListElement{
     public OneWayListElement next;
+    public int data;
 }

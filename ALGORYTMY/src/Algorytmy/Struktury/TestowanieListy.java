@@ -16,6 +16,7 @@ public class TestowanieListy extends AbstractAlgoritm {
         lista.addElementAtBeginning(25, lista);
         lista.addelementBeforeElement(45, 14, lista);
         lista.printAllElement(lista);
+        lista.deleteElement(45,lista);
 
     }
 }

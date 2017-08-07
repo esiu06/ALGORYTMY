@@ -12,7 +12,6 @@ public class mList {
             //wykonujemy jakąś logikę
             p = p.next;
             //konczy działanie
-
         }
     }
 
@@ -104,6 +103,27 @@ public class mList {
             after.next = p;
             list.counter++;
         }
+    }
+
+    public void deleteElement(int elementToDelete, mList list){
+        Element toDelete = list.getElementForward(elementToDelete, list);
+        counter--;
+        if(toDelete.prev == null) {
+            list._head = toDelete.next;
+            toDelete.next.prev=null;
+        }
+        else{
+            toDelete.next.prev=toDelete.prev;
+        }
+
+        if(toDelete.next == null){
+            list._tail = toDelete.prev;
+            toDelete.prev.next = null;
+        }
+        else{
+            toDelete.prev.next = toDelete.next;
+        }
+        toDelete=null;
     }
 }
 

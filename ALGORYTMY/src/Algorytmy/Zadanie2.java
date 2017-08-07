@@ -17,9 +17,6 @@ public class Zadanie2 extends AbstractAlgoritm {
 
         for (int i=0; i<listaczyszczenie.size();i++){
             listaczyszczenie.add(i);
-        
         }
-
     }
-
 }
