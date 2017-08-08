@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Algorithms;
 
 import java.util.Stack;
@@ -31,6 +32,33 @@ public class PrzeliczanieSystemow extends AbstractAlgorithm {
         while (!stos.empty()) {
             //TODO co w przypadku HEX?
             System.out.printf("%d", stos.pop());
+=======
+package Algorytmy;
+
+import java.util.Stack;
+
+public class PrzeliczanieSystemow extends AbstractAlgoritm {
+    @Override
+    public String getName() {
+        return "Stos";
+    }
+
+    @Override
+    public void runAlgoritm(String[] input) {
+        int n = Integer.parseInt(input[1]);
+
+        int p = Integer.parseInt(input[2]);
+
+        Stack<Integer> Stos = new Stack<>();
+
+        while (n > 0) {
+            Stos.push(n % p);
+            n = n/p;
+        }
+
+        while (!Stos.empty()) {
+            System.out.println(Stos.pop());
+>>>>>>> 9df602c3c24e5310e686bf226b8aabcbadb66956
         }
     }
 }

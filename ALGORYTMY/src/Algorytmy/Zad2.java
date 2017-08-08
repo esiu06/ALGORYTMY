@@ -30,25 +30,26 @@ public class Zad2 extends AbstractAlgoritm {
 //
 //        System.out.print(tab3[1]);
 
-       int n = input.length - 1;
-       int tablica4[] = new int[n];
+        int n = input.length - 1;
+        int tablica4[] = new int[n];
 
-      for (int i = o; tablica4.length; i ++){
-          tablica4[i] = Integer.perseInt(input[i+1]);
-      }
+        for (int i = 0; i < tablica4.length; i++) {
+            tablica4[i] = Integer.parseInt(input[i + 1]);
+        }
 
-       int max = 0;
-       int min = 0;
+        int max = 0;
+        int min = 0;
 
-       for(int i=0; i< tablica4.length; i++){
-           if(tablica4[i]>tablica4[max]){
-               max = i;
-           if (tablica4[i] > tablica4[min])   {
-               min = i;
-           }
-           System.out.printf("%d %d\n", max, tablica4[max]);
-               System.out.printf("%d %d\n", min, tablica4[min]);
-       }
+        for (int i = 0; i < tablica4.length; i++) {
+            if (tablica4[i] > tablica4[max]) {
+                max = i;
+                if (tablica4[i] > tablica4[min]) {
+                    min = i;
+                }
+                System.out.printf("%d %d\n", max, tablica4[max]);
+                System.out.printf("%d %d\n", min, tablica4[min]);
+            }
+        }
     }
- }
+}
 

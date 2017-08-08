@@ -1,5 +1,9 @@
 package Algorytmy;
 
+import Algorytmy.Struktury.Kopiec;
+import Algorytmy.Struktury.TestowanieKopca;
+import Algorytmy.Struktury.TestowanieListy;
+
 /**
  * Created by RENT on 2017-07-21.
  */
@@ -52,6 +56,25 @@ public class AlgoritmFactory {
                 return new Zad1();
             case "zad2":
                 return new Zad2();
+            case "testowanielisty":
+                return new TestowanieListy();
+            case "listakolorow":
+                return new ListaKolorow();
+            case "naszedrzewo":
+                return new NaszeDrzewo();
+            case "kopiec":
+                return new TestowanieKopca();
+            case "przeliczaniesystemow":
+                return new PrzeliczanieSystemow();
+            case "onp":
+                return new OdwrotnaNotacjaPolska();
+            case "zadanie1":
+                return new Zadanie1();
+            case "zadanie2":
+                return new Zadanie2();
+            case "zadanie4":
+                return new Zadanie4();
+
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
         }
