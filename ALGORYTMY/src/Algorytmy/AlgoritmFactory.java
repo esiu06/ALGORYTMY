@@ -74,6 +74,8 @@ public class AlgoritmFactory {
                 return new Zadanie2();
             case "zadanie4":
                 return new Zadanie4();
+            case"notacja2":
+                return new Notacja2();
 
                 default:
                     throw new Exception("Nie ma takiego algorytmu!");
