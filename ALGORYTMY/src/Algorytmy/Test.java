@@ -1,15 +1,14 @@
-package Algorytmy;
+package Algorithms;
 
-/**
- * Created by RENT on 2017-07-21.
- */
-public class Test extends AbstractAlgoritm {
+public class Test extends AbstractAlgorithm{
+
     @Override
     public String getName() {
         return "Test";
     }
+
     @Override
-    public void runAlgoritm(String[] input) {
-        System.out.println("To jest algorytm testowy");
+    public void runAlgorithm(String[] input) {
+        System.out.println("To jest algorytm testowy!");
     }
 }

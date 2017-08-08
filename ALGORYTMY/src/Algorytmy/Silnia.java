@@ -1,21 +1,21 @@
-package Algorytmy;
+package Algorithms;
 
-/**
- * Created by RENT on 2017-07-25.
- */
-public class Silnia extends AbstractAlgoritm {
+public class Silnia extends AbstractAlgorithm {
     @Override
     public String getName() {
         return "Liczenie silni";
     }
+
     @Override
-    public void runAlgoritm(String[] input) {
+    public void runAlgorithm(String[] input) {
         int n = Integer.parseInt(input[1]);
         System.out.println(Silnia(n));
     }
+
     private int Silnia(int n){
-        if(n<2)
+        if(n < 2) //Jeżeli n wynosi 1 zwróć 1
             return 1;
-        return n * Silnia(n-1);
+
+        return n * Silnia(n-1); //W p.p. pomnóż n przez wartość wyliczoną rekurencyjnie przez silnie
     }
 }
