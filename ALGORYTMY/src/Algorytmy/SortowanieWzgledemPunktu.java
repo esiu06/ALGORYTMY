@@ -1,16 +1,19 @@
-package Algorytmy;
+package Algorithms;
 
-public class SortowanieWzgledemPunktu extends AbstractAlgoritm {
+public class SortowanieWzgledemPunktu extends AbstractAlgorithm {
     @Override
     public String getName() {
         return "Sortowanie względem punktu";
     }
+
     @Override
-    public void runAlgoritm(String[] input) {
+    public void runAlgorithm(String[] input) {
         //WYWOŁANIE: sortowaniewzgledempunktu 3 1 0 0 3 5 5 2 1 -1
+
         int n = Integer.parseInt(input[1]); //pierwsza liczba po nazwie algorytmu oznacza liczbę przypadków testowych
         int tablicaPunktow[][] = new int[n][3]; //tworzymy nową tablicę dwuwymiarową. Możemy wyobrazić ją sobie jak
         //pole do gry w statki o rozmiarze n x 3, które będziemy uzupełniać danymi
+
         int iterator = 2; //posłuży nam do przechodzenia po inpucie
         for(int i = 0; i < n; i++) // idziemy po wszystkich przypadkach testowych
         {
@@ -23,14 +26,18 @@ public class SortowanieWzgledemPunktu extends AbstractAlgoritm {
                 //tablicaPunktow[przypadek testowy][0] przechowuje numer przypadku
                 //tablicaPunktow[przypadek testowy][1] przechowuje wartość x
                 //tablicaPunktow[przypadek testowy][2] przechowuje wartość y
+
                 iterator++; //po każdym przejśćiu pętli zwiększamy iterator, aby
                 //odczytać kolejną wartość do sparsowania z input
             }
         }
+
         int tablicaWynikow[][] = new int[n][2]; //tworzę dwuwymiarową tablicę na przechowywanie wyników
         //ma ona rozmiar n x 2
         //tablicaWynikow[przypadek testowy][0] przechowuje numer przypadku
         //tablicaWynikow[przypadek testowy][1] przechowuje wyliczony wynik dla przypadku
+
+
         for(int i = 0; i < n; i++) //dla każdego przypadku testowego wyliczamy odległość względem punktu (0,0)
         {
             tablicaWynikow[i][0] = tablicaPunktow[i][0]; //zapisujemy numer punktu do tablicy z wynikami
@@ -40,6 +47,8 @@ public class SortowanieWzgledemPunktu extends AbstractAlgoritm {
             int round = (int)Math.round(sqrt); //zaokrąglamy i rzutujemy do int
             tablicaWynikow[i][1] = round; //przypisujemy wynik do przypadku, który rozpatrujemy w tablicy wyników
         }
+
+
         //Przeprowadzamy sortowanie bąbelkowe
         for(int i =0; i < n; i++) //Rozpoczynamy przeglądanie od początku tablicy wyników, naszym ograniczeniem
             //jest liczba przypadków testowych, które rozpatrujemy
@@ -56,13 +65,16 @@ public class SortowanieWzgledemPunktu extends AbstractAlgoritm {
                     // ze zwykłego sortowania bąbelkowego
                     temp[0] = tablicaWynikow[j][0];
                     temp[1] = tablicaWynikow[j][1];
+
                     tablicaWynikow[j][0] = tablicaWynikow[j+1][0];
                     tablicaWynikow[j][1] = tablicaWynikow[j+1][1];
+
                     tablicaWynikow[j+1][0] = temp[0];
                     tablicaWynikow[j+1][1] = temp[1];
                 }
             }
         }
+
         for(int i=0; i < n; i++)//przechodzimy po wszystkich przypadkach testowych
         {
             int punkt = tablicaWynikow[i][0]; //zapisujemy sobie numerek punktu

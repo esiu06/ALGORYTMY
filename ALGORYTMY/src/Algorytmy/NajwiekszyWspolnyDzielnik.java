@@ -1,20 +1,26 @@
-package Algorytmy;
+package Algorithms;
 
-public class NajwiekszyWspolnyDzielnik extends AbstractAlgoritm {
+/**
+ * Created by jake on 27.07.2017.
+ */
+public class NajwiekszyWspolnyDzielnik extends AbstractAlgorithm {
     @Override
     public String getName() {
-        return "Najwiekszy wspolny dzielnik";
+        return "Największy wspólny dzielnik";
     }
+
     @Override
-    public void runAlgoritm(String[] input) {
-    int k = Integer.parseInt(input[1]);
-    int n = Integer.parseInt(input[2]);
-        System.out.println(nwd(k,n));
+    public void runAlgorithm(String[] input) {
+        int k = Integer.parseInt(input[1]);
+        int n = Integer.parseInt(input[2]);
+
+        System.out.println(NWD(k, n));
     }
-    public int nwd(int k, int n){
-        if( k==0){
+
+    private int NWD(int k, int n){
+        if(k == 0)
             return n;
-        }
-        return nwd (n%k , k);
+
+        return NWD(n%k, k);
     }
 }
