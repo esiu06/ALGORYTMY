@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 30.07.2017.
  */
-public class FizzBuzz extends AbstractAlgorithm {
+public class FizzBuzz extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Fizz Buzz";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //Algorytm ma na celu wyświetlanie fizz, gdy liczba jest podzielna przez 3, buzz, gdy liczba jest podzielna przez 5
 
         int zakres = Integer.parseInt(input[1]);

@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 31.07.2017.
  */
-public class TablicaWyszukiwanieMaxMin extends AbstractAlgorithm {
+public class TablicaWyszukiwanieMaxMin extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Wyszukiwanie max i min";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int n = input.length - 1;
         int tablicaDoAnalizy[] = new int[n];
 

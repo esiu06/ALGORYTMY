@@ -1,13 +1,13 @@
-package Algorithms;
+package Algorytmy;
 
-public class BiednyCamelCase extends AbstractAlgorithm {
+public class BiednyCamelCase extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Biedny Camel Case";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
 
         int letters = 0; //Licznik zliczający wszystkie literki, aby można było określić czy wypisać z dużej czy z małej
         for(int wordsCounter = 1; wordsCounter<input.length; wordsCounter++)

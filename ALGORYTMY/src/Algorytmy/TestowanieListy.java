@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorytmy;
 
 
 import Struktury.mList;
@@ -9,14 +9,14 @@ import java.util.ArrayList;
 /**
  * Created by jake on 01.08.2017.
  */
-public class TestowanieListy extends AbstractAlgorithm {
+public class TestowanieListy extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Testowanie listy";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //klasa testowa służąca do testowania tablicy
         mList lista = new mList();
         lista.addElementAtBeginning(23, lista);

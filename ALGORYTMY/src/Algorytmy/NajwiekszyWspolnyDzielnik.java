@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 27.07.2017.
  */
-public class NajwiekszyWspolnyDzielnik extends AbstractAlgorithm {
+public class NajwiekszyWspolnyDzielnik extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Największy wspólny dzielnik";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int k = Integer.parseInt(input[1]);
         int n = Integer.parseInt(input[2]);
 

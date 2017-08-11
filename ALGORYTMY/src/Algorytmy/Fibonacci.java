@@ -1,16 +1,18 @@
-package Algorithms;
+package Algorytmy;
+
+import Algorytmy.AbstractAlgoritm;
 
 /**
  * Created by jake on 25.07.2017.
  */
-public class Fibonacci extends AbstractAlgorithm {
+public class Fibonacci extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Fibonacci";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int n = Integer.parseInt(input[1]);
         System.out.println(Fib(n));
     }

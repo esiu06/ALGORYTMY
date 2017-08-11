@@ -1,13 +1,13 @@
-package Algorithms;
+package Algorytmy;
 
-public class OdejmowanieKwoty extends AbstractAlgorithm {
+public class OdejmowanieKwoty extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Odejmowanie kwoty";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {     //Użycie: odejmowaniekwoty 1757 45
+    public void runAlgoritm(String[] input) {     //Użycie: odejmowaniekwoty 1757 45
 
         int amountZloty = Integer.parseInt(input[1]); //Wejściowa kwota złotych zamieniona na inta
         int amountGroszy = Integer.parseInt(input[2]); //Wejściowa kwota groszy zamieniona na inta

@@ -1,9 +1,9 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 27.07.2017.
  */
-public class PlanszaDlaStatkow extends AbstractAlgorithm {
+public class PlanszaDlaStatkow extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Plansza dla statków";
@@ -15,7 +15,7 @@ public class PlanszaDlaStatkow extends AbstractAlgorithm {
             "Y", "Z"}; //Tablica literek, która prezentuje nasz alfabet
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //Zadanie to ma na celu ćwiczenie działań na Stringach i tablicach dwuwymiarowych
 
         int liczbaDoSpierwiastkowania = Integer.parseInt(input[1]); //jedynym argumentem jest liczba,

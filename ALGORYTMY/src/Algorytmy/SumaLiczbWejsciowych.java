@@ -1,14 +1,14 @@
-package Algorithms;
+package Algorytmy;
 
 
-public class SumaLiczbWejsciowych extends AbstractAlgorithm {
+public class SumaLiczbWejsciowych extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Suma liczb wejściowych";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int suma = 0;
         for(int i = 1; i < input.length; i++){
             //Pętla wykonuje się od pierwszego elementu (element 0 to nazwa algorytmu)

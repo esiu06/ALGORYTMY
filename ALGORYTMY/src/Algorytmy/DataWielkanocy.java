@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 31.07.2017.
  */
-public class DataWielkanocy extends AbstractAlgorithm {
+public class DataWielkanocy extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Wyznaczanie daty Wielkanocy";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int rok = Integer.parseInt(input[1]);
 
         //Do omówienia zadania potrzebny jest zbiór zadań - zadanie 1

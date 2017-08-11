@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 24.07.2017.
  */
-public class SumowanieLiczbNaturalnych extends AbstractAlgorithm {
+public class SumowanieLiczbNaturalnych extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Sumowanie liczb naturalnych";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int n = Integer.parseInt(input[1]); // Pobierz ile kolejnych liczb naturalnych będziemy sumować
         int suma = 0;
         int i = 1;

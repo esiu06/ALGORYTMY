@@ -1,6 +1,8 @@
-package Algorithms;
+package Algorytmy;
 
-public class Test extends AbstractAlgorithm{
+import Algorytmy.AbstractAlgoritm;
+
+public class Test extends AbstractAlgoritm{
 
     @Override
     public String getName() {
@@ -8,7 +10,9 @@ public class Test extends AbstractAlgorithm{
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
-        System.out.println("To jest algorytm testowy!");
+    public void runAlgoritm(String[] input) {
+
     }
+
+
 }

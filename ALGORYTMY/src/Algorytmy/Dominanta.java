@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 29.07.2017.
  */
-public class Dominanta extends AbstractAlgorithm {
+public class Dominanta extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Szukanie dominanty wersja bogata";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //Wersja uproszczona
 
         int amountOfElements = input.length - 1;

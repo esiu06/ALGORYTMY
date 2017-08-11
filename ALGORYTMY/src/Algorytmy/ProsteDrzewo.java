@@ -1,9 +1,9 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 02.08.2017.
  */
-public class ProsteDrzewo extends AbstractAlgorithm {
+public class ProsteDrzewo extends AbstractAlgoritm {
 
 
     @Override
@@ -16,7 +16,7 @@ public class ProsteDrzewo extends AbstractAlgorithm {
     int _height; //Prywatne pole, które przechowuje wysokość drzewa
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int n = input.length - 1; //ustawaim wielkość drzewa
         getLevel(n); //Metoda ustawia wysokość i poziom drzewa
         _tree = new String[n]; //Wcześniej zadeklarowałem pole drzewo, w tym momencie
