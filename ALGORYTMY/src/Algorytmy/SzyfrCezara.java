@@ -1,9 +1,9 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 25.07.2017.
  */
-public class SzyfrCezara extends AbstractAlgorithm {
+public class SzyfrCezara extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Szyfr Cezara";
@@ -15,7 +15,7 @@ public class SzyfrCezara extends AbstractAlgorithm {
                         "Y", "Z"}; //Tablica literek, która prezentuje nasz alfabet
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         for (int words = 1; words < input.length; words++) //Przechodzimy po wszystkich wyrazach
         {
             String word = input[words].toUpperCase(); //Wyraz piszemy z wielkiej litery i zapisujemy do zmiennej

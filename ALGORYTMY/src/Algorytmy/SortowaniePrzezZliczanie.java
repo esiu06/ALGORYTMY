@@ -1,9 +1,9 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 27.07.2017.
  */
-public class SortowaniePrzezZliczanie extends AbstractAlgorithm {
+public class SortowaniePrzezZliczanie extends AbstractAlgoritm {
 
     @Override
     public String getName() {
@@ -11,7 +11,7 @@ public class SortowaniePrzezZliczanie extends AbstractAlgorithm {
     }
 
     @Override
-    public void runAlgorithm(String[] input)
+    public void runAlgoritm(String[] input)
     {
         int n = input.length - 2; //pobieramy sobie długość ciągu jaki mamy posortować
         int max = Integer.parseInt(input[1]) + 1; //jako pierwszy agrument po nazwie algorytmu dany jest element maksymalny

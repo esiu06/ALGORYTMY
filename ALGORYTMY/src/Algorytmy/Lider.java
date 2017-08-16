@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 31.07.2017.
  */
-public class Lider extends AbstractAlgorithm{
+public class Lider extends AbstractAlgoritm{
     @Override
     public String getName() {
         return "Wyszukiwanie lidera";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int n = 0; //ustawiam sobie maxa na zero
         //nie znam jeszcze długości mojej tabloicy do zliczania
         //więc na ten moment szukam największego elementu, aby na jego podstawie

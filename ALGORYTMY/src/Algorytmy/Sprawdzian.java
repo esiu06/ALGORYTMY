@@ -1,16 +1,16 @@
-package Algorithms;
+package Algorytmy;
 
 /**
  * Created by jake on 29.07.2017.
  */
-public class Sprawdzian extends AbstractAlgorithm {
+public class Sprawdzian extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Sprawdzian i odpowiedzi";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //Pobieramy odpowiedzi chłopaków
         String kubaAnswers = input[1];
         String zenekAnswers = input[2];

@@ -1,18 +1,18 @@
-package Algorithms;
+package Algorytmy;
 
 import Struktury.Kopiec;
 
 /**
  * Created by JMaterac on 03.08.2017.
  */
-public class TestowanieKopca extends AbstractAlgorithm {
+public class TestowanieKopca extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Testowanie kopca";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int n = input.length - 1;
         Kopiec kopiec = new Kopiec(n);
 

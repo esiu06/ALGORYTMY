@@ -1,7 +1,7 @@
-package Algorithms;
+package Algorytmy;
 
 
-public class DzienRoku extends AbstractAlgorithm {
+public class DzienRoku extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Dzień roku";
@@ -12,7 +12,7 @@ public class DzienRoku extends AbstractAlgorithm {
 
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //Jedno z wielu możliwych rozwiązań
         //Wykorzystam tablice z wyliczonymi wcześniej długościami miesięcy
         //jako elementowi 0 przypisuje wartość 0, aby indeksy w tablicy odpowiadały miesiącom

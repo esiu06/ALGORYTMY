@@ -1,4 +1,4 @@
-package Algorytmy.Strukrury;
+package Algorytmy.Struktury;
 
 import javafx.beans.binding.When;
 

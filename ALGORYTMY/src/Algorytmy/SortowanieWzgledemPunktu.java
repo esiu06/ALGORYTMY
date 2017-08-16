@@ -1,13 +1,13 @@
-package Algorithms;
+package Algorytmy;
 
-public class SortowanieWzgledemPunktu extends AbstractAlgorithm {
+public class SortowanieWzgledemPunktu extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Sortowanie względem punktu";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //WYWOŁANIE: sortowaniewzgledempunktu 3 1 0 0 3 5 5 2 1 -1
 
         int n = Integer.parseInt(input[1]); //pierwsza liczba po nazwie algorytmu oznacza liczbę przypadków testowych

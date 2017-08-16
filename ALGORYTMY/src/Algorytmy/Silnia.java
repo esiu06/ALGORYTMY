@@ -1,13 +1,13 @@
-package Algorithms;
+package Algorytmy;
 
-public class Silnia extends AbstractAlgorithm {
+public class Silnia extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Liczenie silni";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int n = Integer.parseInt(input[1]);
         System.out.println(Silnia(n));
     }

@@ -1,13 +1,13 @@
-package Algorithms;
+package Algorytmy;
 
-public class SortowanieBabelkowe extends AbstractAlgorithm {
+public class SortowanieBabelkowe extends AbstractAlgoritm {
     @Override
     public String getName() {
         return "Sortowanie bąbelkowe";
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         int sort[] = new int[input.length-1]; //element 0 jest przeznaczony dla nazwy algorytmu
         //dlatego od długości odejmujemy 1, aby zliczyć tylko interesujące nas liczby
 

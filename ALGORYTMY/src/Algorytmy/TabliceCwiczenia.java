@@ -1,11 +1,11 @@
-package Algorithms;
+package Algorytmy;
 
 import java.util.Random;
 
 /**
  * Created by jake on 31.07.2017.
  */
-public class TabliceCwiczenia extends AbstractAlgorithm {
+public class TabliceCwiczenia extends AbstractAlgoritm {
 
     @Override
     public String getName() {
@@ -13,7 +13,7 @@ public class TabliceCwiczenia extends AbstractAlgorithm {
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public void runAlgoritm(String[] input) {
         //Przypisanie losowej wartości kolejnym elementom tablicy
         Random rand = new Random(); //Tworzenie obiektu odpowiedzialnego za generowanie losowych liczb
         int losowe[] = new int[10];
